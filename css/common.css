@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url(/Users/nhotam/portfolio_web/css/_config/_variables.css);
+/* 下記はcommonだけで良い */
+@import url(/Users/nhotam/portfolio_web/css/_config/_fonts.css);
+@import url(/Users/nhotam/portfolio_web/css/_config/_reset.css);
+@import url(/Users/nhotam/portfolio_web/css/_config/_keyframes.css);
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  color: #fff;
+}
+
+/*
+img.fit でobjectfit-cover;
+img.fit.fit--contain でobjectfit-contain;
+*/
+/* よく使うホバー。不要なら削除 */
+@media (min-width: 769px), print {
+  .show_sp {
+    display: none !important;
+  }
+  .row {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+  }
+  a[href^=tel] {
+    pointer-events: none;
+    text-decoration: none;
+  }
+  .text-bold {
+    font-weight: 600;
+  }
+  .text_break {
+    word-break: break-all;
+  }
+  img {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  .header {
+    background: #222222;
+  }
+  .header_inner {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header .logo {
+    padding-top: 20px;
+  }
+  .header_nav {
+    padding: 34px 0 0 0;
+  }
+  .header_nav li {
+    padding: 0 20px;
+  }
+  .header_nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+  }
+  .header_nav li a:hover {
+    color: #FF624B;
+  }
+  /*========= CSS COMMON ===========*/
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: vw(26);
+    line-height: vw(44);
+  }
+  .show_pc {
+    display: none !important;
+  }
+  .container {
+    overflow: hidden;
+    min-width: 320px;
+  }
+  .row {
+    padding-left: vw(40);
+    padding-right: vw(40);
+  }
+  .text-bold {
+    font-weight: 600;
+  }
+  .text_break {
+    word-break: break-all;
+  }
+  /*========= CSS COMMON ===========*/
+}
+/*# sourceMappingURL=common.css.map */

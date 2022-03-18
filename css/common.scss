@@ -1,0 +1,118 @@
+@charset "utf-8";
+@import './_config/_variables.css';
+
+/* 下記はcommonだけで良い */
+@import './_config/_fonts.css';
+@import './_config/_reset.css';
+@import './_config/_keyframes.css';
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+}
+
+body  {
+  color: #fff;
+}
+/*
+img.fit でobjectfit-cover;
+img.fit.fit--contain でobjectfit-contain;
+*/
+
+/* よく使うホバー。不要なら削除 */
+
+@media (min-width: 769px), print {
+  .show_sp {
+    display: none !important;
+  }
+
+  .row {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+  }
+
+  a[href^=tel] {
+    pointer-events: none;
+    text-decoration: none;
+  }
+
+  .text-bold {
+    font-weight: 600;
+  }
+
+  .text_break {
+    word-break: break-all;
+  }
+
+  img {
+    box-sizing: content-box;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+  .header {
+    background: #222222;
+    &_inner {
+      justify-content: space-between;
+    }
+    .logo {
+      padding-top: 20px;
+    }
+    &_nav {
+      padding: 34px 0 0 0;
+      li {
+        padding: 0 20px;
+        a {
+          text-transform: uppercase;
+          text-decoration: none;
+          color: #fff;
+          transition: .5s ease-in-out;
+          &:hover {
+            color: #FF624B;
+          }
+        }
+      }
+    }
+    
+  }
+
+  /*========= CSS COMMON ===========*/
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: vw(26);
+    line-height: vw(44);
+  }
+
+  .show_pc {
+    display: none !important;
+  }
+
+  .container {
+    overflow: hidden;
+    min-width: 320px;
+  }
+
+  .row {
+    padding-left: vw(40);
+    padding-right: vw(40);
+  }
+
+  .text-bold {
+    font-weight: 600;
+  }
+
+  .text_break {
+    word-break: break-all;
+  }
+
+ 
+
+  /*========= CSS COMMON ===========*/
+}

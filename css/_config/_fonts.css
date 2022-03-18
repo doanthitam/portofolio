@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "glyphs";
+  src: url('../fonts/glyphs.eot?t=1637412678661'); /* IE9*/
+  src: url('../fonts/glyphs.eot?t=1637412678661#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("../fonts/glyphs.woff2?t=1637412678661") format("woff2"),
+  url("../fonts/glyphs.woff?t=1637412678661") format("woff"),
+  url('../fonts/glyphs.ttf?t=1637412678661') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/glyphs.svg?t=1637412678661#glyphs') format('svg'); /* iOS 4.1- */
+}
+
+[class^="glyphs-"], [class*=" glyphs-"] {
+  font-family: 'glyphs' !important;
+  font-size:1em;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.glyphs-arr_right:before { content: "\ea01"; }
+.glyphs-ic_camera:before { content: "\ea02"; }
+.glyphs-ic_chart:before { content: "\ea03"; }
+.glyphs-ic_connect:before { content: "\ea04"; }
+.glyphs-ic_data:before { content: "\ea05"; }
+.glyphs-ic_file:before { content: "\ea06"; }
+.glyphs-ic_iot:before { content: "\ea07"; }
+.glyphs-ic_linechart:before { content: "\ea08"; }
+.glyphs-ic_list:before { content: "\ea09"; }
+.glyphs-ic_map:before { content: "\ea0a"; }
+.glyphs-ic_menu:before { content: "\ea0b"; }
+.glyphs-ic_pencil:before { content: "\ea0c"; }
+.glyphs-ic_screen:before { content: "\ea0d"; }
+.glyphs-ic_wifi:before { content: "\ea0e"; }
+.glyphs-ic_word:before { content: "\ea0f"; }
+.glyphs-test:before { content: "\ea10"; }
