@@ -1,9 +1,9 @@
 @charset "utf-8";
-@import '../css/_config/_variables.css';
+@import './_config/_variables.css';
 /* 下記はcommonだけで良い */
-@import '../css/_config/_fonts.css';
-@import '../css/_config/_reset.css';
-@import '../css/_config/_keyframes.css';
+@import './_config/_fonts.css';
+@import './_config/_reset.css';
+@import './_config/_keyframes.css';
 a {
   color: currentColor;
   text-decoration: none;
