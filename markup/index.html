@@ -1,52 +1,77 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="format-detection" content="telephone=no">
-    <title>DOAN TAM</title>
-    <meta name="Description" content="説明が入ります">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="説明が入ります">
-    <meta property="og:title" content="サンプル">
-    <meta property="og:url" content="#">
-    <meta property="og:image" content="#">
-    <meta property="og:locale" content="ja_JP">
-    <meta name="twitter:card" content="">
-    <meta name="twitter:site" content="サンプル">
-    <meta name="twitter:description" content="説明が入ります">
-    <link rel="shortcut icon" href="">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap">
-    <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" href="../css/branding.css">
-
-  </head>
-  <body>
-    <header class="header" id="header">
-      <div class="row flex header_inner">
-        <div class="logo">
-          <a class="headerLogo" href="../index.html">
-            <img src="../img/logo.png" alt="DoanTam">
-          </a>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>MARKUP | DOAN TAM</title>
+        <meta name="Description" content="サンプル">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="サンプル">
+        <meta property="og:title" content="MARKUP | DOAN TAM">
+        <meta property="og:url" content="http://doantam.com/">
+        <meta property="og:image" content="http://doantam.com/og.png">
+        <meta property="og:locale" content="ja_JP">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap">
+        <link rel="stylesheet" href="../assets/css/common.css">
+        <script>
+            var bodyWidth = (document.body && document.body.clientWidth) || 0; document.documentElement.style.setProperty('--vw', (bodyWidth / 100) + 'px'); document.documentElement.style.setProperty('--vh', (window.innerHeight / 100) + 'px');
+        </script>
+    </head>
+    <body>
+        <div class="container" id="container">
+            <header class="header" id="header">
+                <div class="inner">
+                    <div class="header_inner">
+                        <h1 class="header_logo">
+                            <a href="../index.html">
+                                <img src="../assets/images/common/logo_main.png" alt="DOAN TAM" width="56" height="56" loading="lazy"/>
+                            </a>
+                        </h1>
+                        <nav class="header_nav" id="navbar">
+                            <ul class="header_menu">
+                                <li><a href="../index.html#about-me">ABOUT ME</a></li>
+                                <li><a href="../index.html#position">WHAT I DO</a></li>
+                                <li><a href="../index.html#skills">SKILLS</a></li>
+                                <li><a href="../index.html#project">PROJECTS</a></li>
+                                <li><a href="../index.html#footer">CONTACT ME</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header_more">
+                            <div class="header_language" id="setting_flag">
+                                <span class="setting_evt" id="evt_show">Languages</span>
+                                <div class="setting_lst">
+                                    <ul>
+                                        <li class="lang-jp"><a class="active" href="#">Japanese</a></li>
+                                        <li class="lang-en"><a href="#">English</a></li>
+                                        <li class="lang-vn"><a href="#">Vietnamese</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header_hamburger" id="hamburger">
+                                <div class="burger_lines"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+              <p>準備中です</p>
+            </main>
+            <footer class="footer" id="footer">
+                <div class="inner">
+                    <div class="footer_cnt">
+                        <h2 class="ttl_sec">Contact Me</h2>
+                        <p>ご質問・ご相談があればお気軽にご連絡ください。</p>
+                        <p>Email:<a href="mailTo:">tamdt03@gmail.com</a></p>
+                        <p>電話番号:<a href="tel:0972935864">0972935864</a></p>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <ul class="header_nav flex" >
-          <li><a href="#section-1" class="js-anchor-link">About ME</a> </li>
-          <li><a href="#section-2" class="js-anchor-link">WHAT I DO</a></li>
-          <li><a href="#section-3" class="js-anchor-link">SKILLS</a></li>
-          <li><a href="#section-4" class="js-anchor-link">PROJECTS</a></li>
-          <li><a href="#section-5" class="js-anchor-link">CONTACT ME</a></li>
-        </ul>
-      </div>
-    </header>
-    <main>
-     <p>準備中です</p>
-    </main>
-    <footer class="footer" id="footer">
-    </footer>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.fancybox.js"></script>
-    <script src="./js/script.js"></script>
-  </body>
+        <script src="../assets/js/vendor.js" defer></script>
+        <script src="../assets/js/runtime.js" defer></script>
+        <script src="../assets/js/bundle.js" defer></script>
+    </body>
 </html>
