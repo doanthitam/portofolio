@@ -326,7 +326,7 @@
         width: 70%
     }
     .skills_item_percent-wd-4:before {
-        width: 90%
+        width: 98%
     }
     .skills_item:not(:last-child) {
         margin-bottom: 16px
@@ -367,7 +367,7 @@
     .project_item_inner:before {
         content: "";
         position: absolute;
-        top: 15px;
+        top: 22px;
         right: 0;
         left: 0;
         margin: 0 auto;
@@ -381,7 +381,7 @@
         width: 100%
     }
     .project_item_head h3 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
         position: relative
     }
     .project_item_head h3:before {
@@ -394,7 +394,7 @@
         margin: 0 auto;
         position: absolute;
         right: 0;
-        top: 0;
+        top: 7px;
         width: 130px
     }
     .project_item_cnt p {
@@ -471,10 +471,10 @@
         min-height: 510px
     }
     .project_item-vertical .project_item_head {
-        margin-bottom: 30px
+        margin-bottom: 22px
     }
     .project_item-vertical .project_item_head h3 {
-        padding-top: 164px
+        padding-top: 145px
     }
     .project_item-vertical .project_item_head h3:before {
         background-position: top
@@ -496,7 +496,7 @@
         background-image: url(../images/top/project_symbol_01.png)
     }
     .project_item.--logo .project_item_inner:before {
-        background-image: url(../images/top/project_txt_logo.png)
+        background-image: url(../images/top/project_txt_ux.png)
     }
     .project_item.--web {
         background-color: #7c7ea5;
